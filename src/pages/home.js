@@ -9,6 +9,7 @@ import './home.css';
 
 export function Home(props) {
 	return (
+		<div>
 		<FrontpageTop />
 		<FrontpageSection 
 			title="Track your favorite stocks" 
@@ -23,5 +24,6 @@ export function Home(props) {
 			src="#"
 		/>
 		<Footer />
+		</div>
 	);
 };
