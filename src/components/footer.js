@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 
 import './footer.css';
 
-export function Footer(props) {
+export default function Footer(props) {
 	return (
 		<nav>
 			<ul>

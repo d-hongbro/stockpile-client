@@ -6,9 +6,11 @@ import BannerCard from './banner-card';
 
 import './frontpage-top.css';
 
-export function FrontpageTop(props) {
+export default function FrontpageTop(props) {
 	return (
+		<div>
 		<TopNav />
 		<BannerCard header="Stockpile" description="Stock tracking app" />
+		</div>
 	);
 };

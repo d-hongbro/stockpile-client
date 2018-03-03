@@ -7,7 +7,7 @@ import Footer from '.././components/footer';
 
 import './home.css';
 
-export function Home(props) {
+export default function Home(props) {
 	return (
 		<div>
 		<FrontpageTop />
