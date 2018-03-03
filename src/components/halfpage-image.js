@@ -6,7 +6,7 @@ import './halfpage-image.css';
 export default function HalfpageImage(props) {
 	return (
 		<a href={props.imageLink}>
-			<img src={props.src} alt="feature image displayed" />
+			<img src={props.src} alt="feature displayed" />
 		</a>
 	);
 };
