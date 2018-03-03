@@ -1,5 +1,5 @@
 import React from 'react';
-import {connect} from 'react-redux';
+// import {connect} from 'react-redux';
 
 import HalfpageInfo from './halfpage-info';
 import HalfpageImage from './halfpage-image';
