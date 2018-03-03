@@ -1,9 +1,9 @@
 import React from 'react';
 import {Provider} from 'react-redux';
 
-import FrontpageTop from './components/frontpage-top';
-import FrontpageSection from './components/frontpage-section';
-import Footer from './components/footer';
+import FrontpageTop from '.././components/frontpage-top';
+import FrontpageSection from '.././components/frontpage-section';
+import Footer from '.././components/footer';
 
 import './home.css';
 
