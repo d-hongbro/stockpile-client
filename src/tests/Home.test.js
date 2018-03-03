@@ -1,9 +1,10 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import Home from './pages/home';
+import React from 'react';
+import {shallow, mount} from 'enzyme';
 
-// it('renders without crashing', () => {
-//   const div = document.createElement('div');
-//   ReactDOM.render(<Home />, div);
-//   ReactDOM.unmountComponentAtNode(div);
-// });
+import Home from './pages/home';
+
+describe('<Home />', () => {
+	it('Renders without crashing', () => {
+		shallow(<Home />);
+	});
+});
