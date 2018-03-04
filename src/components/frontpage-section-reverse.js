@@ -4,13 +4,13 @@ import React from 'react';
 import HalfpageInfo from './halfpage-info';
 import HalfpageImage from './halfpage-image';
 
-import './frontpage-section.css';
+import './frontpage-section-reverse.css';
 
-export default function FrontpageSection(props) {
+export default function FrontpageSectionReverse(props) {
 	return (
 		<section className="section">
-			<HalfpageInfo title={props.title} message={props.message} />
 			<HalfpageImage imageLink={props.imageLink} src={props.src} />
+			<HalfpageInfo title={props.title} message={props.message} />
 		</section>
 	);
 };

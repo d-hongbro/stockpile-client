@@ -1,0 +1,16 @@
+.topNav {margin: 0 auto;}
+.topNav div.container {
+	width: 70%;
+}
+.topNav ul {
+	list-style: none; 
+	display: flex; 
+	justify-content: space-around;
+}
+.topNav a:link, 
+.topNav a:visited, 
+.topNav a:hover, 
+.topNav a:active {
+	color: black; 
+	text-decoration: none;
+}

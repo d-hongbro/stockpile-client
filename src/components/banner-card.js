@@ -5,9 +5,9 @@ import './banner-card.css';
 
 export default function BannerCard(props) {
 	return (
-		<div>
-		<h1>{props.header}</h1>
-		<p>{props.description}</p>
+		<div className="container row">
+			<h1 className="title">{props.header}</h1>
+			<span className="subTitle">{props.description}</span>
 		</div>
 	);
 };

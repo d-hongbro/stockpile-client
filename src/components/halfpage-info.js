@@ -5,9 +5,9 @@ import './halfpage-info.css';
 
 export default function HalfpageInfo(props) {
 	return (
-		<div>
-		<h2>{props.title}</h2>
-		<p>{props.message}</p>
+		<div className="info col-4">
+			<h2>{props.title}</h2>
+			<p>{props.message}</p>
 		</div>
 	);
 };

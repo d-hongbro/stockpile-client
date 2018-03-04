@@ -5,12 +5,16 @@ import './footer.css';
 
 export default function Footer(props) {
 	return (
-		<nav>
-			<ul>
-				<li>
-					<a href="https://github.com/d-hongbro">Made by David Hong </a>
-				</li>
-			</ul>
-		</nav>
+		<footer>
+			<nav className="botNav">
+				<div className="container row">
+					<ul>
+						<li>
+							<a href="https://github.com/d-hongbro">Made by David Hong </a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</footer>
 	);
 };

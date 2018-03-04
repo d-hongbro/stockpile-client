@@ -5,8 +5,10 @@ import './halfpage-image.css';
 
 export default function HalfpageImage(props) {
 	return (
-		<a href={props.imageLink}>
-			<img src={props.src} alt="feature displayed" />
-		</a>
+		<div className="image col-8">
+			<a href={props.imageLink}>
+				<img src={props.src} alt="feature displayed" />
+			</a>
+		</div>
 	);
 };
